@@ -6,7 +6,17 @@ Automated tests for [redmine.org](https://www.redmine.org) built with Playwright
 ```bash
 npm install
 npx playwright install --with-deps chromium
-npx playwright test
+npm test
+```
+
+## Run tests with browser visible
+```bash
+npm run test:headed
+```
+
+## Generate Allure report
+```bash
+npm run report
 ```
 
 ## Allure Report
